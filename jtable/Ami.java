@@ -34,6 +34,10 @@ public class Ami {
         return prenom;
     }
 
+    public String getPrenomUpper() {
+        return prenom.toUppercase();
+    }
+
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
